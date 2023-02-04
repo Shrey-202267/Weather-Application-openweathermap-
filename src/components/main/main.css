@@ -1,0 +1,174 @@
+.main{
+    
+}
+
+.box{
+   padding: 70px 150px;
+}
+
+.top{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.city_name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.city_coordinates{
+    font-weight: 400;
+font-size: 14px;
+color: #606060;
+}
+
+.search_box{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);;
+}
+
+.search_box input{
+    flex: 1;
+    padding: 5px 2px;
+    border: none;
+}
+
+
+
+.search_box img{
+    padding: 0 5px;
+}
+
+.center{
+    margin:70px 0 ;
+    display: flex;
+    gap: 50px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.black_card{
+    background: linear-gradient(180deg, #464646 0%, #1D2540 100%);;
+    margin: 10px 0;
+    
+    border-radius: 7px;
+    
+}
+
+.date_button_box{
+    margin-top: 60px;
+}
+
+.date_button_box span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.date_button{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.date{
+    font: 18px;
+    font-weight: 700;
+}
+
+.date_button button{
+    width: 130px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+    border: 1px solid #464646;
+}
+
+.weather_img_details{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_details_top{
+    padding: 15px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card_details_bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    color: #fff;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width:600px) {
+    .top{
+        flex-direction: column-reverse;
+        gap: 25px;
+        
+    }
+
+    .box{
+        padding: 20px 20px;
+     }
+
+     .search_box{
+        width: 90%;
+    }
+
+    .city{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    
+}
+
+
+
